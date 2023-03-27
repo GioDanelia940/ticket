@@ -1,27 +1,39 @@
-# Ticket
+## Table of contents
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Website functionalities](#Website-functionalities)
 
-## Development server
+## General info
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+responsive markup for ticket, using angular, components are loaded using \*ngIf and listening to window:resize event. when window with goes below 1400px, mobile component gets loaded instead of desktop
 
-## Code scaffolding
+## Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The project is created with:
 
-## Build
+- Angular 15
+- typescript
+- Angular material
+- bootstrap
+- font-awasome
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Setup
 
-## Running unit tests
+To run this project, run following commands.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ npm install
+$ ng serve
 
-## Running end-to-end tests
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Website functionalities
 
-## Further help
+- desktop ticket
+  ![Algorithm schema](./images/desktop.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- mobile ticket
+
+  ![Algorithm schema](./images/mobile.png)
