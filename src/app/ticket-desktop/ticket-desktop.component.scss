@@ -1,0 +1,127 @@
+.ticket {
+  height: 480px;
+  width: 900px;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.ticket-body {
+  height: 100%;
+  width: 100%;
+}
+.second-part {
+  width: 30%;
+  height: 100%;
+  border-radius: 0 10px 10px 0px;
+}
+.first-part {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  border-right: 2px dashed rgb(217, 217, 217);
+}
+.empty-dot-top {
+  background-color: rgb(217, 217, 217);
+  height: 9px;
+  width: 15px;
+  border-radius: 0 0 10px 10px;
+  margin-left: 622px;
+  position: fixed;
+}
+.empty-dot-bottom {
+  background-color: rgb(217, 217, 217);
+  height: 9px;
+  width: 15px;
+  border-radius: 10px 10px 0 0;
+  margin-left: 622px;
+  position: relative;
+  bottom: 9px;
+}
+.fly-data {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.sub-title {
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+}
+.title-circle {
+  background-color: rgb(244, 246, 246);
+  color: rgb(97, 108, 129);
+  height: 20px;
+  width: 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.route-dot {
+  height: 10px;
+  width: 10px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+}
+.fly-route {
+  margin-left: 30px;
+  width: 40%;
+}
+.route-dash {
+  height: 3px;
+  background-color: lightblue;
+  width: 40%;
+}
+.fly-hour-end {
+  margin-left: 30px;
+}
+.button-type-1 {
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 3px 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid rgb(217, 217, 217);
+}
+.button-type-1:hover {
+  background-color: rgb(217, 217, 217);
+  box-shadow: 1px 1px 5px grey;
+}
+.price {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.sub-price {
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 14px;
+}
+.reserve {
+  background-color: dodgerblue;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.reserve:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+.detail-button {
+  background-color: white;
+  color: grey;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.detail-button:hover {
+  background-color: rgb(217, 217, 217);
+  box-shadow: 1px 1px 5px grey;
+}
