@@ -1,0 +1,92 @@
+.ticket {
+  height: 320px;
+  width: 400px;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.ticket-body {
+  height: 100%;
+  width: 100%;
+}
+.empty-dot-left {
+  background-color: rgb(217, 217, 217);
+  height: 15px;
+  width: 9px;
+  border-radius: 0 10px 10px 0;
+}
+.empty-dot-right {
+  background-color: rgb(217, 217, 217);
+  height: 15px;
+  width: 9px;
+  border-radius: 10px 0 0 10px;
+}
+.ticket-content {
+  height: 100%;
+  width: 100%;
+}
+.first-part {
+  height: calc(50% + 1px);
+  border-bottom: 2px dashed rgb(217, 217, 217);
+}
+.main-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 20px 0 0 0px;
+}
+.fly-data {
+  width: 100%;
+}
+.route-dot {
+  height: 10px;
+  width: 10px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+}
+.fly-route {
+  width: 60%;
+}
+.route-dash {
+  height: 3px;
+  background-color: lightblue;
+  width: 40%;
+}
+.fly-data-top {
+  margin-top: 20px;
+}
+.fly-hours {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: bold;
+}
+.sub-title {
+  color: rgb(217, 217, 217);
+  font-size: 13px;
+  font-weight: 500;
+}
+.reserve {
+  background-color: dodgerblue;
+  margin: 20px 0 10px 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.reserve:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+.reserve-text {
+  color: dodgerblue;
+  font-weight: 500;
+  font-size: 14px;
+}
+.details {
+  background-color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: dodgerblue;
+}

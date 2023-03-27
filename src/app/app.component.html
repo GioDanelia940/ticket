@@ -1,0 +1,6 @@
+<article (window:resize)="onResize($event)">
+  <div class="container d-flex justify-content-center m-auto">
+    <app-ticket-mobile *ngIf="isMobile"> </app-ticket-mobile>
+    <app-ticket-desktop *ngIf="!isMobile"></app-ticket-desktop>
+  </div>
+</article>
