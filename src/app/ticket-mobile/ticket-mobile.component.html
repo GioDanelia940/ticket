@@ -1,1 +1,44 @@
-<p>ticket-mobile works!</p>
+<div class="ticket">
+  <div class="ticket-body d-flex justify-content-between align-items-center">
+    <div class="empty-dot-left"></div>
+    <div class="d-flex flex-column ticket-content">
+      <div
+        class="d-flex flex-column justify-content-st align-items-start first-part"
+      >
+        <div class="main-title">
+          თბილისი
+          <fa-icon [icon]="faRightLeft" style="margin: 5px"></fa-icon>
+          პარიზი
+        </div>
+        <div class="fly-data d-flex flex-column">
+          <div class="fly-data-top d-flex flex-row justify-content-between">
+            <h5 class="fly-hours">10:45</h5>
+            <div class="fly-route">
+              <div class="d-flex justify-content-center align-items-center">
+                <fa-icon [icon]="faPlane" style="margin-right: 5px"></fa-icon>
+                <div class="route-dot"></div>
+                <div class="route-dash"></div>
+                <div class="route-dot"></div>
+                <div class="route-dash"></div>
+                <div class="route-dot"></div>
+              </div>
+            </div>
+            <h5 class="fly-hours">03:10</h5>
+          </div>
+          <div class="fly-data-bottom d-flex justify-content-between">
+            <p class="sub-title">1 გაჩერება</p>
+            <p class="sub-title">ფრენა:5სთ 20</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="second-part d-flex flex-column justify-content-center align-items-center"
+      >
+        <button class="reserve">640₾</button>
+        <p class="reserve-text">განვადება თვეში 72.33₾-დან</p>
+        <button class="details">ვრცლად</button>
+      </div>
+    </div>
+    <div class="empty-dot-right"></div>
+  </div>
+</div>
