@@ -90,10 +90,10 @@ h5 {
   font-size: 14px;
   font-weight: 500;
   border: 1px solid rgba(97, 108, 129, 0.6);
-}
-.button-type-1:hover {
-  background-color: rgba(217, 217, 217);
-  box-shadow: 1px 1px 5px grey;
+  &:hover {
+    background-color: rgba(217, 217, 217);
+    box-shadow: 1px 1px 5px grey;
+  }
 }
 .price {
   font-size: 30px;
@@ -113,9 +113,9 @@ h5 {
   border: none;
   color: white;
   font-weight: bold;
-}
-.reserve:hover {
-  box-shadow: 1px 1px 5px grey;
+  &:hover {
+    box-shadow: 1px 1px 5px grey;
+  }
 }
 .detail-button {
   background-color: white;
@@ -126,9 +126,8 @@ h5 {
   font-size: 14px;
   font-weight: 500;
   border: 1px solid rgba(97, 108, 129, 0.6);
-}
-
-.detail-button:hover {
-  background-color: rgb(217, 217, 217);
-  box-shadow: 1px 1px 5px grey;
+  &:hover {
+    background-color: rgb(217, 217, 217);
+    box-shadow: 1px 1px 5px grey;
+  }
 }
