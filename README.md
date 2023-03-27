@@ -7,7 +7,7 @@
 
 ## General info
 
-responsive markup for ticket, using angular, components are loaded using \*ngIf and listening to window:resize event. when window width goes below 1400px, mobile component gets loaded instead of desktop
+responsive markup for ticket, using angular, components are loaded using \*ngIf and listening to window:resize event. when window width goes below 1200px, mobile component gets loaded instead of desktop
 
 ## Technologies
 
