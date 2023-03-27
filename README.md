@@ -29,7 +29,7 @@ $ ng serve
 
 ```
 
-## Website functionalities
+## Components
 
 - desktop ticket
   ![Algorithm schema](./images/desktop.png)
