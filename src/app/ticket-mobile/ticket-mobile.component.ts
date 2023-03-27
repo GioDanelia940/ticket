@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { faRightLeft, faPlane } from '@fortawesome/free-solid-svg-icons';
+import {
+  faRightLeft,
+  faPlaneDeparture,
+} from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-ticket-mobile',
   templateUrl: './ticket-mobile.component.html',
@@ -7,5 +10,5 @@ import { faRightLeft, faPlane } from '@fortawesome/free-solid-svg-icons';
 })
 export class TicketMobileComponent {
   faRightLeft = faRightLeft;
-  faPlane = faPlane;
+  faPlane = faPlaneDeparture;
 }
