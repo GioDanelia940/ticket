@@ -9,6 +9,10 @@
   height: 100%;
   width: 100%;
 }
+h5 {
+  font-weight: bold;
+  color: rgb(60, 63, 73);
+}
 .second-part {
   width: 30%;
   height: 100%;
@@ -82,13 +86,13 @@
   background-color: white;
   border-radius: 15px;
   padding: 3px 10px;
-  color: black;
+  color: rgb(97, 108, 129);
   font-size: 14px;
-  font-weight: 400;
-  border: 1px solid rgb(217, 217, 217);
+  font-weight: 500;
+  border: 1px solid rgba(97, 108, 129, 0.6);
 }
 .button-type-1:hover {
-  background-color: rgb(217, 217, 217);
+  background-color: rgba(217, 217, 217);
   box-shadow: 1px 1px 5px grey;
 }
 .price {
@@ -115,13 +119,13 @@
 }
 .detail-button {
   background-color: white;
-  color: grey;
   width: 200px;
   height: 30px;
   border-radius: 5px;
-  border: 1px solid grey;
-  font-weight: 500;
+  color: rgb(97, 108, 129);
   font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgba(97, 108, 129, 0.6);
 }
 
 .detail-button:hover {
