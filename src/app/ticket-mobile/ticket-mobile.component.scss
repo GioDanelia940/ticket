@@ -39,8 +39,8 @@
   width: 100%;
 }
 .route-dot {
-  height: 10px;
-  width: 10px;
+  min-height: 10px;
+  min-width: 10px;
   background-color: dodgerblue;
   border-radius: 50%;
 }

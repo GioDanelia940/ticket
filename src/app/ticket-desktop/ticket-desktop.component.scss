@@ -8,10 +8,10 @@
 .ticket-body {
   height: 100%;
   width: 100%;
-}
-h5 {
-  font-weight: bold;
-  color: rgb(60, 63, 73);
+  h5 {
+    font-weight: bold;
+    color: rgb(60, 63, 73);
+  }
 }
 .second-part {
   width: 30%;
@@ -19,7 +19,6 @@ h5 {
   border-radius: 0 10px 10px 0px;
 }
 .first-part {
-  display: inline-block;
   width: 70%;
   height: 100%;
   border-right: 2px dashed rgb(217, 217, 217);
@@ -64,8 +63,8 @@ h5 {
   border-radius: 15px;
 }
 .route-dot {
-  height: 10px;
-  width: 10px;
+  min-height: 10px;
+  min-width: 10px;
   background-color: dodgerblue;
   border-radius: 50%;
 }
