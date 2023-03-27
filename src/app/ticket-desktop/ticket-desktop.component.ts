@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
-import { faClockRotateLeft, faDove } from '@fortawesome/free-solid-svg-icons';
-import { faPlaneDeparture } from '@fortawesome/free-solid-svg-icons';
+import {
+  faClockRotateLeft,
+  faDove,
+  faPlaneDeparture,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-ticket-desktop',
